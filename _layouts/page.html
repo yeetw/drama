@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+{% assign name = page.name | split: "." | first %}
+
+<article>
+  {% unless page.hide_title %}<h1 class="title {{ name }}">{{ page.title }}</h1>{% endunless %}
+  <div class="divider"></div>
+  {{ content }}
+</article>
+
+<div class="page-navigation code">
+  <a
+    class="home"
+    href="{{ "/" | prepend: site.baseurl | prepend: site.url }}"
+    title="Back to Top">All</a>
+</div>
+
+<div class="support" style="position: fixed; bottom: 0px; right: 0px; z-index: 1000;">
+  <a href="https://buymeacoffee.com/yeetw" target="_blank" style="color: #fff; text-decoration: none;">
+    <div style="background-color: #7c9a9c; color: #fff; padding: 6px 12px; border-radius: 5px; display: inline-block; text-align: center; cursor: pointer; font-family: 'Roboto', serif; font-size: 16px;">
+      <b><span style="color: white;">🤍</span> Send gift</b>
+    </div>
+  </a>
+</div>
+
+<script>
+  function isMobileDevice() {
+    return /Mobi|Android/i.test(navigator.userAgent);
+  }
+
+  function handleTooltipClick(event, element) {
+    if (isMobileDevice()) {
+      if (!element.classList.contains('active')) {
+        event.preventDefault();
+        element.classList.add('active');
+      }
+    }
+  }
+
+  document.addEventListener('click', function(event) {
+    const tooltips = document.querySelectorAll('.tooltip');
+    tooltips.forEach(function(tooltip) {
+      if (!tooltip.contains(event.target)) {
+        tooltip.classList.remove('active');
+      }
+    });
+  });
+</script>

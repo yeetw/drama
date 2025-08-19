@@ -1,0 +1,32 @@
+{% if page.url == "/" %}
+  {% assign target_url = "/drama" %}
+{% else %}
+  {% assign target_url = "/" %}
+{% endif %}
+
+{% if page.url == "/" %}
+  {% assign logo_url = site.book_logo_url %}
+{% else %}
+{% assign logo_url = site.drama_logo_url %}
+{% endif %}
+
+<aside class="logo">
+  <a href="https://read.yeekuo.tw">
+    <img
+      src="{{ "/assets/logo.png" | prepend: site.baseurl | prepend: site.url}}"
+      alt=""
+      class="logo-avatar">
+  </a>
+</aside>
+
+{% if jekyll.environment == 'production' %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-45P2KZK504"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-45P2KZK504');
+</script>
+{% endif %}

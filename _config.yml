@@ -1,0 +1,10 @@
+url: https://drama.yeekuo.tw
+
+# for the-plain theme
+author_name: yee
+title: yee
+social_share_previews: true
+
+plugins:
+  - jekyll-remote-theme
+remote_theme: heiswayi/the-plain
