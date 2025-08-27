@@ -44,18 +44,22 @@ li {
 }
 li > a {
   border-bottom: 0px;
+  font-family: 'Huninn', sans-serif;
   font-size: 16px;
   color: #7b9a9c;
 }
 li > a:hover {
   text-decoration: underline;
+  font-family: 'Huninn', sans-serif;
   color: #7b9a9c;
 }
 li > a > strong {
   font-weight: 400;
+  font-family: 'Huninn', sans-serif;
   color: #FFB85C;
 }
 li > a > strong:hover {
+  font-family: 'Huninn', sans-serif;
   color: #FFB85C;
 }
 li > a.no-isbn {
