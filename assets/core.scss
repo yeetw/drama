@@ -11,11 +11,14 @@
 }
 .divider {
   margin: 12px 0px !important;
+}  
+article h1.title {
+font-size: 20px;
 }
 h1.index {
   color: #7b9a9c;
-  font-size: 26px;
-  font-weight: bold;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 500;
   margin-top: 0.25em;
   margin-bottom: 0.25em;
 }
