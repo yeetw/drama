@@ -7,6 +7,13 @@
   pending: true
   comment: 跟著五郎享受一個人的美食，看他吃的津津有味又吃很多的樣子覺得很好吃
 
+- name: 強風吹拂
+  platform: KKTV
+  type: 動畫
+  date: 2025/09/24
+  star: true
+  comment: 開始跑步之後二刷，透過跑步感受到的氛圍看到的風景是過去沒有體驗過的，男子們並不是都一開始就熱愛跑步，而是透過不斷地練習和找尋意義，才逐漸找到屬於自己的節奏🏃
+
 - name: 明天，我會成為誰的女友
   platform: Disney+
   date: 2025/09/17
@@ -331,13 +338,6 @@
   date: 2024
   star: true
   comment: 超好看！溫暖且療癒，情感細膩的神作，使用魔法的奇幻故事，2026 一月要出第二季🤩
-
-- name: 強風吹拂
-  platform: KKTV
-  type: 動畫
-  date: 2024
-  star: true
-  comment: 改編自三浦紫苑同名小說的日本動畫，很熱血的跑步故事，大學生一起住在男子宿舍，共同挑戰箱根驛傳
   
 - name: 輪迴第7次的惡役令孃，在前敵國享受自由自在的新娘生活
   platform: KKTV
