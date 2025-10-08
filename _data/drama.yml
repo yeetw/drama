@@ -394,7 +394,6 @@
 - name: 樂活俱樂部 
   platform: friDay
   type: 電影
-  date: 2024
   comment: 海邊的故事，氛圍放鬆恬淡，喜歡這部電影的顏色和演員，演員小林聰美和市川實日子很讚🤍
 
 - name: 失控的照護
@@ -408,37 +407,37 @@
   platform: KKTV
   type: 日劇
   star: true
-  date: 2024
   comment: 充滿抱負的東京刑警發現自己竟和變態連環殺人魔互換了靈魂，高橋一生和綾瀨遙演員演技超好，非常好看👍
 
 - name: 喂！！帥哥
   platform: KKTV
-  date: 2024
   type: 日劇
   star: true
   comment: 爸媽與三個女兒的故事，溫馨好笑的家庭劇，演員都滿順眼自然，很讚⭐️
 
 - name: 本田小狼與我
   platform: KKTV
-  date: 2024
   type: 動畫
   star: true
   comment: 入坑動畫的早年作品，畫風色調都很喜歡，友情也很溫馨，整體是療癒的作品🛵
 
 - name: 火口的二人
-  date: 2024
   type: 電影
   star: true
   comment: 柄本佑與瀧內公美的演出很驚艷，凝縮出愛與慾的臨界狀態，全片幾乎二人對戲，節奏緊密卻毫不窒息，透出難以言說的孤寂與溫柔
 
 - name: 生命中的美好缺憾
-  date: 2024
   type: 電影
   star: true
   comment: 2014 年的作品，溫馨感人，癌症的女孩與男孩之間的愛情故事🩶
 
 - name: 戀夏 500 日
-  date: 2024
   type: 電影
   star: true
   comment: 2009 年的作品，男女主角顏值很高，劇情浪漫，洛杉磯拍得很美🇺🇸
+
+- name: 大豆田永久子與三個前夫
+  platform: friDay
+  type: 日劇
+  star: true
+  comment: 編劇是坂元裕二，主角松隆子展現極出色的演出，三位前夫（松田龍平、角田晃廣、岡田將生）則象徵人生不同階段的選擇與理解，劇情有趣好看✨
