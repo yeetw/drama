@@ -440,6 +440,12 @@
   type: 電影
   comment: 以平和的節奏堆疊出深層情感，喜歡這部的演員二宮和也、妻夫木聰、黑木華和菅田將暉，是一部又細膩的家庭作品🤍
 
+- name: 監獄公主
+  platform: Netflix
+  type: 日劇
+  star: true
+  comment: 包裹著犯罪推理劇外衣的女子友情故事，編劇是宮藤官九郎，劇本很棒
+
 - name: 大豆田永久子與三個前夫
   platform: friDay
   type: 日劇
