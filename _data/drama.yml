@@ -7,6 +7,13 @@
   pending: true
   comment: 跟著五郎享受一個人的美食，看他吃的津津有味又吃很多的樣子覺得很好吃
 
+- name: 一百公尺。
+  platform: 電影院
+  type: 電影
+  date: 2025/10/13
+  star: true
+  comment: 魚豊的作品、關於跑步的劇情、松坂桃李的配音、Official髭男dism 主題曲、有線條的人物畫風、有生命力的色彩風格，整體非常喜歡！人物有種兵乓的風格，喜歡畫面人物在遠景中縮小的呈現，以及細節的特寫，有進電影院看大螢幕真是☺️
+
 - name: Love Actually
   platform: Netflix
   type: 電影
