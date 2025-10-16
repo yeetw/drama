@@ -1,19 +1,11 @@
-- name: 孤獨的美食家
+- name: 🖤
   platform: KKTV
-  series: 2025 跨年特別篇
+  series: 🖤
   star: true
   type: 日劇
-  date: 2025/02
+  date: 2025/10
   pending: true
-  comment: 跟著五郎享受一個人的美食，看他吃的津津有味又吃很多的樣子覺得很好吃
-
-- name: 孤獨的美食家
-  platform: KKTV
-  series: 2024 跨年特別篇
-  star: true
-  type: 日劇
-  date: 2025/10/16
-  comment: 🇯🇵
+  comment: 🖤
 
 - name: 一百公尺。
   platform: 電影院
