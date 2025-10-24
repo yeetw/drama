@@ -7,6 +7,13 @@
   pending: true
   comment: 🖤
 
+- name: 龍貓
+  platform: friDay
+  type: 電影
+  date: 2025/10/25
+  star: true
+  comment: 導演是宮崎駿，配樂是久石讓，龍貓很圓潤可愛
+
 - name: SPY x FAMILY 間諜家家酒
   platform: KKTV
   series: 第 1 季、第 2 季
@@ -470,7 +477,7 @@
 - name: 崖上的波妞
   type: 電影
   star: true
-  comment: 導演是宮崎駿，海很美故事很有愛，人物和整體色調柔和有童話感，久石讓的配樂帶給畫面生命力，很喜歡🫶🏼
+  comment: 導演是宮崎駿，海很美故事很有愛，人物和整體色調柔和有童話感，久石讓的配樂帶給畫面生命力🥰
 
 - name: 我的意外爸爸
   type: 電影
