@@ -7,6 +7,13 @@
   pending: true
   comment: 🖤
 
+- name: 神隱少女
+  platform: friDay
+  type: 電影
+  date: 2025/10/26
+  star: true
+  comment: 開頭在車上純鋼琴的配樂很經典，導演是宮崎駿，配音是久石讓
+
 - name: 霍爾的移動城堡
   platform: friDay
   type: 電影
