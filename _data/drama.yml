@@ -7,6 +7,13 @@
   pending: true
   comment: 🖤
 
+- name: 魔女宅急便
+  platform: friDay
+  type: 電影
+  date: 2025/11/01
+  star: true
+  comment: 好好看！宮崎駿馬拉松的第七部，琪琪趴在麵包店櫃檯上的畫面很經典，黑貓吉吉很可愛，麵包店索娜和先生非常關懷著琪琪🧹
+
 - name: 紅豬
   platform: friDay
   type: 電影
