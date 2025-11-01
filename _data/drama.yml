@@ -7,6 +7,13 @@
   pending: true
   comment: 🖤
 
+- name: 紅豬
+  platform: friDay
+  type: 電影
+  date: 2025/11/01
+  star: true
+  comment: 吉娜和菲兒展現不同面向的「女性力量」，結局覺得有點惆悵，導演是宮崎駿，監製是鈴木敏夫，配音是久石讓
+
 - name: 天空之城
   platform: friDay
   type: 電影
