@@ -11,7 +11,7 @@
   platform: friDay
   type: 電影
   date: 2025/11/07
-  comment: Celine Song 的第二部電影長片，Dakota Johnson 好瘦好美，"Love is love. It’s not a math problem, it’s just an easy thing that happens suddenly."
+  comment: Celine Song 的第二部電影長片，”Love is love. It’s not a math problem, it’s just an easy thing that happens suddenly.”
 
 - name: 孤獨 S 又怎樣
   platform: Hami
@@ -113,7 +113,7 @@
   platform: Netflix
   type: 電影
   date: 2025/10/10
-  comment: It’s Christmas, and at Christmas, you tell the truth.🎄
+  comment: ”It’s Christmas, and at Christmas, you tell the truth.”🎄
 
 - name: 坂本日常
   platform: Netflix
