@@ -10,6 +10,7 @@
 - name: 天作之合
   platform: friDay
   type: 電影
+  star: true
   date: 2025/11/07
   comment: Celine Song 的第二部電影長片，”Love is love. It’s not a math problem, it’s just an easy thing that happens suddenly.”
 
