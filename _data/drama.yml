@@ -601,6 +601,11 @@
   type: 電影
   comment: 濱口龍介執導，三個短篇故事，喜歡電影的色調和服裝
 
+- name: 可可夜總會
+  type: 電影
+  star: true
+  comment: “Seize your moment.”
+
 - name: 金秘書為何那樣
   type: 韓劇
   comment: 浪漫的職場劇，由朴敘俊和朴敏英演出，化學反應十足，服裝與場景設計也十分精緻
