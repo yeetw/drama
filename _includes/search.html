@@ -5,6 +5,11 @@
       return;
     }
     const lis = dramaList.getElementsByTagName('li');
+    const normalizedFilter = (filter || '').trim().toLowerCase();
+    /* Split the query into keywords and capture the special "star" flag. */
+    const tokens = normalizedFilter.length > 0 ? normalizedFilter.split(/\s+/) : [];
+    const requireStar = tokens.includes('star');
+    const keywords = tokens.filter(token => token !== 'star');
     for (let i = 0; i < lis.length; i++) {
       /* Get attributes. */
       let name = lis[i].textContent.toLowerCase();
@@ -16,22 +21,20 @@
         comment = lis[i].getElementsByClassName('tooltiptext')[0].textContent.toLowerCase();
       }
 
-      if (filter == 'star') {
-        /* Show only starred books. */
-        if (star == 'true') {
-          lis[i].style.display = 'list-item';
-        } else {
-          lis[i].style.display = 'none';
-        }
-      } else {
-        /* Filter by search fields. */
-        const searchFields = [name, platform, date, comment];
-        if (searchFields.every(field => field.indexOf(filter) === -1)) {
-          lis[i].style.display = 'none';
-        } else {
-          lis[i].style.display = 'list-item';
-        }
+      let shouldShow = true;
+
+      if (requireStar && star !== 'true') {
+        shouldShow = false;
       }
+
+      if (shouldShow && keywords.length > 0) {
+        const searchFields = [name, platform, date, comment];
+        shouldShow = keywords.every(keyword =>
+          searchFields.some(field => field.indexOf(keyword) !== -1)
+        );
+      }
+
+      lis[i].style.display = shouldShow ? 'list-item' : 'none';
     }
   }
 
@@ -56,7 +59,7 @@
       }
       searchEle.classList.toggle('search--expanded');
     });
-    inputEle.addEventListener('change', (e) => {
+    inputEle.addEventListener('input', (e) => {
       const filter = e.target.value.toLowerCase();
       searchDramaList(filter);
     });
