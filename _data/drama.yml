@@ -10,8 +10,7 @@
 - name: 隔壁的山田君
   platform: friDay
   type: 電影
-  date: 2025/11/14
-  star: true
+  date: 2025/11/16
   comment: 導演是高畑勳，畫風很特別，以低彩度、宛如鉛筆素描般的筆觸呈現日常
 
 - name: 最後的情書
