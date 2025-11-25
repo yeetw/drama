@@ -8,10 +8,16 @@
   comment: 🖤
 
 - name: 大小姐和看門犬
+  type: 電影
+  date: 2025/11/25
+  comment: 電影少了一些情感的堆疊，女主角好白好嬌小
+
+- name: 大小姐和看門犬
   platform: Netflix
   type: 動畫
   date: 2025/11/25
-  comment: 漫畫改編，故事是黑道世家的大小姐一咲和負責照顧他的啓彌之間的情感，啓彌主動又温柔的曖昧互動好甜🫶🏼
+  star: true
+  comment: 改編，故事是黑道世家的大小姐一咲和負責照顧他的男人啓彌之間的情感，啓彌主動又温柔的曖昧互動好甜🫶🏼
 
 - name: SPY x FAMILY 間諜家家酒
   platform: KKTV
