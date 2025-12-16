@@ -7,6 +7,13 @@
   pending: true
   comment: 🖤
 
+- name: 一吻爆炸
+  platform: Netflix
+  type: 韓劇
+  date: 2025/12/31
+  star: true
+  comment: 是大腦獲得放鬆的戀愛劇，安恩真好美
+
 - name: 動物方城市２
   platform: 電影院
   type: 電影
