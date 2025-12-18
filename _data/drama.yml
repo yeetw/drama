@@ -7,12 +7,21 @@
   pending: true
   comment: 🖤
 
+
+
 - name: 一吻爆炸
   platform: Netflix
   type: 韓劇
   date: 2025/12/31
   star: true
   comment: 是大腦獲得放鬆的戀愛劇，安恩真好美，金武俊很可愛
+
+- name: 大象體操：比夢境更真實
+  platform: 電影院
+  type: 電影
+  star: true
+  date: 2025/12/17
+  comment: 對其中非語言思考的狀態覺得很有共鳴，凱婷、嘉欽和凱翔三個人如此的不同但能一起組團十年，希望大象體操長長久久
 
 - name: 動物方城市２
   platform: 電影院
