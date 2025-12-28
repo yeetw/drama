@@ -7,6 +7,14 @@
   pending: true
   comment: 🖤
 
+- name: SPY x FAMILY 間諜家家酒
+  platform: KKTV
+  series: 第１季、第２季和第３季
+  star: true
+  type: 動畫
+  date: 2025/10/17
+  comment: 好看！各有秘密的設定很有趣，彭德和安妮亞好可愛，看黃昏越來越有感情覺得很感動💛
+
 - name: 一吻爆炸
   platform: Netflix
   type: 韓劇
@@ -221,14 +229,6 @@
   date: 2025/10/25
   star: true
   comment: 長大後終於看這部經典～人物之間的互動充滿温情，宮崎駿的導演手法與久石讓的配樂相得益彰；整體以低彩度、低對比的色調呈現，營造出柔和又懷舊的氛圍，畫面與音樂都好喜歡
-
-- name: SPY x FAMILY 間諜家家酒
-  platform: KKTV
-  series: 第 1 季、第 2 季
-  star: true
-  type: 動畫
-  date: 2025/10/17
-  comment: 好看！各有秘密的設定很有趣，彭德和安妮亞好可愛，洛伊德和約兒的相處很温馨💛
 
 - name: 一百公尺。
   platform: 電影院
