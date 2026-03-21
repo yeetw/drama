@@ -11,7 +11,8 @@
   platform: Hami
   date: 2026/04/01
   type: 動畫
-  comment: 轉生題材的戀愛動畫，主線為王太子溺愛劇情，喜歡森林妖精王的角色🧚
+  comment: 轉生題材的戀愛動畫，衣服很美，主線為王太子溺愛劇情，喜歡森林王和天空王的角色
+  pending: true
 
 - name: 葬送的芙莉蓮
   platform: Hami
@@ -20,6 +21,15 @@
   series: 第 2 季
   star: true
   comment: 畫風、人物、顏色、音樂和故事都很喜歡，終於等到第二季
+  pending: true
+
+- name: 即使，這份戀情今晚會從世界上消失
+  platform: Netflix
+  type: 韓劇
+  date: 2026/03/21
+  star: true
+  comment: 申詩雅好美，飾演高中生完全不違和
+  pending: true
 
 - name: 秒速 5 公分
   series: 真人版
