@@ -13,6 +13,14 @@
   type: 動畫
   comment: 轉生題材的戀愛動畫，主線為王太子溺愛劇情，喜歡森林妖精王的角色🧚
 
+- name: 葬送的芙莉蓮
+  platform: Hami
+  type: 動畫
+  date: 2026/03/31
+  series: 第 2 季
+  star: true
+  comment: 畫風、人物、顏色、音樂和故事都很喜歡，終於等到第二季
+
 - name: 秒速 5 公分
   series: 真人版
   playform: 電影院
@@ -624,6 +632,7 @@
   platform: KKTV
   type: 動畫
   date: 2024
+  series: 第 1 季
   star: true
   comment: 超好看！温暖且療癒，情感細膩的神作，使用魔法的奇幻故事，2026 一月要出第二季🤩
   
