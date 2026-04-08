@@ -23,6 +23,13 @@
   comment: 喜歡柔和色彩設計，透過精靈與人類的時間尺度差異，構建出獨特的敘事張力，等好久終於等到第二季
   pending: true
 
+- name: 相反的你和我
+  platform: Netflix
+  type: 動畫
+  date: 2026/04/08
+  star: true
+  comment: on 檔動畫，好純情好青春，很喜歡大量的內心戲，在差點興奮過頭的時候，在俯瞰白己的瞬問就會踩車🙇🏻‍♀️
+
 - name: 秒速 5 公分
   series: 導演特別映像版
   playform: 電影院
@@ -30,12 +37,6 @@
   date: 2026/03/31
   comment: 自己在國賓長春看的，新海誠的作品，「櫻花抄」、「太空人」和「秒速5公分」三個故事，結尾都有讓人心揪的遺憾😢
 
-- name: 相反的你和我
-  platform: Netflix
-  type: 動畫
-  date: 2026/04/08
-  star: true
-  comment: on 檔動畫，好純情好青春，很喜歡大量的內心戲，在差點興奮過頭的時候，在俯瞰白己的瞬問就會踩車🙇🏻‍♀️
 
 - name: 即使，這份戀情今晚會從世界上消失
   platform: Netflix
