@@ -7,13 +7,6 @@
   pending: true
   comment: 🖤
 
-- name: 被鄰國王太子溺愛的反派千金
-  platform: Hami
-  date: 2026/04/01
-  type: 動畫
-  comment: 轉生題材的戀愛動畫，衣服很美，主線為王太子溺愛劇情，喜歡森林王和天空王的角色
-  pending: true
-
 - name: 葬送的芙莉蓮
   platform: Hami
   type: 動畫
@@ -21,6 +14,20 @@
   series: 第二季
   star: true
   comment: 喜歡柔和色彩設計，透過精靈與人類的時間尺度差異，構建出獨特的敘事張力，等好久終於等到第二季
+  pending: true
+
+- name: 異國日記
+  platform: Hami
+  date: 2026/04/20
+  star: true
+  type: 動畫
+  comment: 配樂很好聽，低彩度的視覺呈現看了很平靜，想通自己想通自己該如何活下去的這一天會到來嗎🥹
+
+- name: 被鄰國王太子溺愛的反派千金
+  platform: Hami
+  date: 2026/04/01
+  type: 動畫
+  comment: 轉生題材的戀愛動畫，衣服很美，主線為王太子溺愛劇情，喜歡森林王和天空王的角色
   pending: true
 
 - name: 相反的你和我
