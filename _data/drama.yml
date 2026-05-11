@@ -16,6 +16,13 @@
   comment: 喜歡柔和色彩設計，透過精靈與人類的時間尺度差異，構建出獨特的敘事張力，等好久終於等到第二季
   pending: true
 
+- name: 關於我在無意間被隔壁的天使變成廢柴這件事
+  platform: LINE TV
+  series: ２
+  type: 動畫
+  date: 2025/06/15
+  comment: 追跟播的戀愛番，主角的互動依然很甜
+
 - name: 異國日記
   platform: Hami
   date: 2026/05/09
@@ -431,6 +438,7 @@
 
 - name: 關於我在無意間被隔壁的天使變成廢柴這件事
   platform: friDay
+  series: １
   type: 動畫
   date: 2025/05/15
   star: true
