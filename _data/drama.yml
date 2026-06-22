@@ -60,7 +60,7 @@
 
 - name: 秒速 5 公分
   series: 導演特別映像版
-  playform: 電影院
+  platform: 電影院
   type: 電影
   date: 2026/03/31
   comment: 自己在國賓長春看的，新海誠的作品，「櫻花抄」、「太空人」和「秒速5公分」三個故事，結尾都有讓人心揪的遺憾😢
@@ -74,7 +74,7 @@
 
 - name: 秒速 5 公分
   series: 真人版
-  playform: 電影院
+  platform: 電影院
   type: 電影
   date: 2026/02/10
   star: true
