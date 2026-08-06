@@ -16,6 +16,12 @@
   comment: 喜歡柔和色彩設計，透過精靈與人類的時間尺度差異，構建出獨特的敘事張力，等好久終於等到第二季
   pending: true
 
+- name: SOLANIN
+  platform: 電影院
+  type: 電影
+  date: 2026/08/06
+  comment: 宮崎葵和高良健吾主演，原來是 2010 年就上映的作品，面對人生和夢想的猶疑、焦慮與擔憂很有共感
+
 - name: 不受待見的我們
   platform: 電影院
   type: 電影
