@@ -893,6 +893,11 @@
   type: 日劇
   comment: 卡司很強，有村架純、坂口健太郎和生田斗真
 
+- name: 本日公休
+  type: 電影
+  star: true
+  comment: 台語的台灣電影，導演是傅天余，監製是吳念真，很多喜歡的演員，陸小芬、陳庭妮、方志友、施名帥和傅孟柏
+
 - name: 六人行
   type: 美劇
   star: true
