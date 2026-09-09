@@ -72,6 +72,19 @@ li > a.no-isbn {
   margin-top: 2em;
 }
 
+// Footer spacing
+.page-navigation {
+  margin-top: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+
+  .block:nth-child(n + 2) {
+    display: none;
+  }
+}
+
 // Search button
 .searchbox {
   display: flex;
