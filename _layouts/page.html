@@ -31,11 +31,11 @@ layout: default
     {% assign korean_dramas = dramas | where: "type", "韓劇" %}
     {% assign american_dramas = dramas | where: "type", "美劇" %}
     <li><a href="/">累計．{{ dramas.size }} 部</a></li>
-    <li><a href="/?q=電影">電影 ‧ {{ movies.size }} 部</a></li>
-    <li><a href="/?q=動畫">動畫 ‧ {{ animations.size }} 部</a></li>
-    <li><a href="/?q=日劇">日劇 ‧ {{ japanese_dramas.size }} 部</a></li>
-    <li><a href="/?q=韓劇">韓劇 ‧ {{ korean_dramas.size }} 部</a></li>
-    <li><a href="/?q=美劇">美劇 ‧ {{ american_dramas.size }} 部</a></li>
+    <li><a href="/?q=type%3A%20電影">電影 ‧ {{ movies.size }} 部</a></li>
+    <li><a href="/?q=type%3A%20動畫">動畫 ‧ {{ animations.size }} 部</a></li>
+    <li><a href="/?q=type%3A%20日劇">日劇 ‧ {{ japanese_dramas.size }} 部</a></li>
+    <li><a href="/?q=type%3A%20韓劇">韓劇 ‧ {{ korean_dramas.size }} 部</a></li>
+    <li><a href="/?q=type%3A%20美劇">美劇 ‧ {{ american_dramas.size }} 部</a></li>
     <li class="slide-menu__divider"></li>
     <li><a href="https://buymeacoffee.com/yeetw" target="_blank"><span class="slide-menu__emoji">☕</span> Buy Me a Coffee</a></li>
     <li><a href="mailto:yee@yeekuo.tw"><span class="slide-menu__emoji">✉️</span> Contact Me</a></li>

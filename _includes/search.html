@@ -6,14 +6,26 @@
     }
     const lis = dramaList.getElementsByTagName('li');
     const normalizedFilter = (filter || '').trim().toLowerCase();
-    /* Split the query into keywords and capture the special "star" flag. */
+    /* Split the query into keywords and capture the special filters. */
     const tokens = normalizedFilter.length > 0 ? normalizedFilter.split(/\s+/) : [];
     const requireStar = tokens.includes('star');
-    const keywords = tokens.filter(token => token !== 'star');
+    const keywords = [];
+    let requiredType = '';
+    for (let i = 0; i < tokens.length; i++) {
+      const token = tokens[i];
+      if (token === 'type:' && tokens[i + 1]) {
+        requiredType = tokens[++i];
+      } else if (token.startsWith('type:') && token.length > 5) {
+        requiredType = token.slice(5);
+      } else if (token !== 'star') {
+        keywords.push(token);
+      }
+    }
     for (let i = 0; i < lis.length; i++) {
       /* Get attributes. */
       let name = lis[i].textContent.toLowerCase();
       let star = lis[i].getAttribute('star');
+      let type = (lis[i].dataset.type || '').toLowerCase();
       let platform = lis[i].getAttribute('platform').toLowerCase();
       let date = lis[i].getAttribute('date');
       let comment = '';
@@ -22,6 +34,10 @@
       }
 
       let shouldShow = true;
+
+      if (requiredType && type !== requiredType) {
+        shouldShow = false;
+      }
 
       if (requireStar && star !== 'true') {
         shouldShow = false;
